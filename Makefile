@@ -82,11 +82,11 @@ ifeq ($(TARGET),3DS)
     LIBRARY_DIRS += $(DEVKITPRO)/libctru $(DEVKITPRO)/portlibs/3ds/
     LIBRARIES += citro3d ctru png z m
 
-    PRODUCT_CODE := CTR-P-BNTR
+    PRODUCT_CODE := CTR-P-CNTR
     ifeq ($(EXTENDEDMODE), 1)
-    	UNIQUE_ID := 0xEB300
+    	UNIQUE_ID := 0xEB301
     else
-    	UNIQUE_ID := 0xEB000
+    	UNIQUE_ID := 0xEB001
     endif
 
     CATEGORY := Application
